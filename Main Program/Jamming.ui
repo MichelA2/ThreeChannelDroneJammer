@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JammingClass</class>
+ <widget class="QMainWindow" name="JammingClass">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1417</width>
+    <height>831</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Jamming</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+color: black;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1401</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="pushButton_Graph">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>500</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Graphs</string>
+      </property>
+      <property name="icon">
+       <iconset theme="QIcon::ThemeIcon::DocumentNew"/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Operational">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>500</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Operational</string>
+      </property>
+      <property name="icon">
+       <iconset theme="QIcon::ThemeIcon::NetworkWireless"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Tecnical">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>500</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Technical</string>
+      </property>
+      <property name="icon">
+       <iconset theme="QIcon::ThemeIcon::DocumentProperties"/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_backGround">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>80</y>
+        <width>600</width>
+        <height>310</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Information">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>680</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 4px 8px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Information</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton_StopTransmissionGPS">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>610</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Stop Transmission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_StartTransmissionGPS">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>560</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Start Transmission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_StopTransmissionWIFI24">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>610</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Stop Transmission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_StartTransmissionWIFI24">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>560</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Start Transmission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EXIT">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>730</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_StopTransmissionWIFI58">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>610</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Stop Transmission</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_StartTransmissionWIFI58">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>560</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Start Transmission</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_StartTransmissionGPS">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>30</y>
+        <width>301</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_StartTransmissionWIFI24">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>301</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_StartTransmissionWIFI58">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>30</y>
+        <width>301</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_transmissionGPS">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>520</y>
+        <width>221</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_transmission24">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>520</y>
+        <width>221</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_transmission58">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>520</y>
+        <width>221</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="pushButton_ConfigureLime">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Configure  LimeSDR Mini 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ConnectLimeSDR">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>120</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Connect to LimeSDR Mini 2.0</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ConfigureLMX2492EVM24">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>370</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Configure  LMX2492EVM 2.4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ConnectLMX2492EVM24">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>370</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Connect to LMX2492EVM 2.4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EXIT_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>730</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>380</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>130</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_LMX2492EVM">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>380</y>
+        <width>101</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_LimeSDR">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>130</y>
+        <width>101</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Diagram">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>140</y>
+        <width>491</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_LMX2492EVM58">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>630</y>
+        <width>101</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Disconnected</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>630</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ConnectLMX2492EVM58">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>620</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Connect to LMX2492EVM 5.8</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>66</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Stop Frequency [MHz]</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_LIME_StopFreq">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>3500</number>
+      </property>
+      <property name="value">
+       <number>1587</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_LIME_StartFreq">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>3500</number>
+      </property>
+      <property name="value">
+       <number>1563</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>16</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Start Frequancy [MHz]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>215</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Start Frequency [MHz]</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_StartFrequencyVCO">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>2328</number>
+      </property>
+      <property name="maximum">
+       <number>2536</number>
+      </property>
+      <property name="value">
+       <number>2400</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_StopFrequencyVCO">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>290</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>2328</number>
+      </property>
+      <property name="maximum">
+       <number>2536</number>
+      </property>
+      <property name="value">
+       <number>2485</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>265</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string>color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Stop Frequency [MHz] </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>315</y>
+        <width>181</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Sweep Duration [usec]</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_SweepDuration">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>340</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>60</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="value">
+       <number>100</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_StartFrequencyVCO58">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>490</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>5700</number>
+      </property>
+      <property name="maximum">
+       <number>5900</number>
+      </property>
+      <property name="value">
+       <number>5725</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>515</y>
+        <width>181</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Stop Frequency  [MHz]</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_SweepDuration58">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>590</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>60</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="value">
+       <number>100</number>
+      </property>
+      <property name="displayIntegerBase">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_StopFrequencyVCO58">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>540</y>
+        <width>88</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #C0C0C0;
+    color: black;;
+    font-size: 14px;
+    font-weight: bold;
+
+</string>
+      </property>
+      <property name="minimum">
+       <number>5700</number>
+      </property>
+      <property name="maximum">
+       <number>5900</number>
+      </property>
+      <property name="value">
+       <number>5850</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ConfigureLMX2492EVM58">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>620</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Configure  LMX2492EVM 5.8</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>566</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Sweep Duration [usec]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>465</y>
+        <width>181</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Start Frequency  [MHz]</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tipGPS">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>130</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>tooltip.png</normaloff>tooltip.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tip24">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>380</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>tooltip.png</normaloff>tooltip.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tip58">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>630</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>tooltip.png</normaloff>tooltip.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_tipGPS">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>130</y>
+        <width>321</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: #C0C0C0;
+    color: black;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline;&quot;&gt;Tips&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Note: D&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;o not configure a bandwidth greater than 40 MHz. &lt;br/&gt;This is the maximum supported bandwidth of the system. &lt;br/&gt;Supported GPS Frequencies for Jamming:&lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;L1 – 1563 to 1587 MHz&lt;br/&gt;L5 – 1164 to 1189 MHz&lt;br/&gt;L2 – 1217 to 1237 MHz&lt;br/&gt;E1 (Galileo) – 1559 to 1591 MHz&lt;br/&gt;E5a (Galileo) – 1164 to 1189 MHz&lt;br/&gt;E5b (Galileo) – 1189 to 1214 MHz&lt;br/&gt;E6 (Galileo) – 1260 to 1300 MHz&lt;br/&gt;G1 (GLONASS) – 1590 to 1610 MHz&lt;br/&gt;G2 (GLONASS) – 1236 to 1256 MHz&lt;br/&gt;G3 (GLONASS) – 1207 to 1227 MHz&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_tip24">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>380</y>
+        <width>361</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: #C0C0C0;
+    color: black;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline;&quot;&gt;Tips&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Frequency Range: &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;The system supports configuration only within 2328 to 2536 MHz.&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Sweep Time Limit:&lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;Sweep duration must be 60 µs or higher.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_tip58">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>630</y>
+        <width>361</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: #C0C0C0;
+    color: black;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; text-decoration: underline;&quot;&gt;Tips&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Frequency Range: &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;The system supports configuration only within 5700 to 5900 MHz.&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Sweep Time Limit:&lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:400;&quot;&gt;&lt;br/&gt;Sweep duration must be 60 µs or higher.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <zorder>pushButton_ConfigureLime</zorder>
+     <zorder>pushButton_ConnectLimeSDR</zorder>
+     <zorder>pushButton_ConfigureLMX2492EVM24</zorder>
+     <zorder>pushButton_ConnectLMX2492EVM24</zorder>
+     <zorder>pushButton_EXIT_2</zorder>
+     <zorder>line_2</zorder>
+     <zorder>line_3</zorder>
+     <zorder>label_LMX2492EVM</zorder>
+     <zorder>label_LimeSDR</zorder>
+     <zorder>label_LMX2492EVM58</zorder>
+     <zorder>line_4</zorder>
+     <zorder>pushButton_ConnectLMX2492EVM58</zorder>
+     <zorder>label_3</zorder>
+     <zorder>spinBox_LIME_StopFreq</zorder>
+     <zorder>spinBox_LIME_StartFreq</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+     <zorder>spinBox_StartFrequencyVCO</zorder>
+     <zorder>spinBox_StopFrequencyVCO</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_7</zorder>
+     <zorder>spinBox_SweepDuration</zorder>
+     <zorder>spinBox_StartFrequencyVCO58</zorder>
+     <zorder>label_8</zorder>
+     <zorder>spinBox_SweepDuration58</zorder>
+     <zorder>spinBox_StopFrequencyVCO58</zorder>
+     <zorder>pushButton_ConfigureLMX2492EVM58</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_Diagram</zorder>
+     <zorder>pushButton_tipGPS</zorder>
+     <zorder>pushButton_tip24</zorder>
+     <zorder>pushButton_tip58</zorder>
+     <zorder>label_tipGPS</zorder>
+     <zorder>label_tip24</zorder>
+     <zorder>label_tip58</zorder>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="pushButton_EXIT_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>730</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_TriangleSweep24">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>230</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sweep Triangle 2.4GHz</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_TriangleSweep58">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>330</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sweep Triangle 5.8GHz</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_FFT24">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>280</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Frequency Domain 2.4 GHz</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_FFT58">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>380</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Frequency Domain 5.8 GHz</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_FFTGPS">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>480</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Frequency Domain GPS</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_noiseGPS">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>430</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>Gaosian Noise</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidgetGraph">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>110</y>
+        <width>831</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="page_11">
+       <widget class="QFrame" name="horizontalFrameTriangle24">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_12">
+       <widget class="QFrame" name="horizontalFrameFFT24">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_13">
+       <widget class="QFrame" name="horizontalFrameTriangle58">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_14">
+       <widget class="QFrame" name="horizontalFrameFFT58">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_6">
+       <widget class="QFrame" name="horizontalFrameNoiseGPS">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_7">
+       <widget class="QFrame" name="horizontalFrameFFTGPS">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>680</width>
+          <height>500</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string>
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_7"/>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="label_info">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>911</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Welcome to the Graphical User Interface of the Three-Channel Drone Jammer&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;This interface is designed to give you full control over our drone jamming system, supporting&lt;br/&gt;interaction and feedback across all three channels: 2.4 GHz, 5.8 GHz, and GPS.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;The UI is divided into three main sections:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Operational – &lt;span style=&quot; font-weight:400;&quot;&gt;Control the system’s transmission status.&lt;br/&gt;You can start or stop each channel individually.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Technical – &lt;span style=&quot; font-weight:400;&quot;&gt;Configure the system to match your specific jamming requirements.&lt;br/&gt;This section allows adjustment of all key parameters.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Graphs – &lt;span style=&quot; font-weight:400;&quot;&gt;View signal visualization for each jamming channel.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Use this interface to explore, control, and fine-tune the capabilities of your jamming system.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EXIT_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>730</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+background-color: black;
+    color: white;;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #d6d6d6;
+}
+QPushButton:pressed {
+    background-color: #e8e3e3;
+}</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_info_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>400</y>
+        <width>561</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LMX2492EVM&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;is a signal-generating board that produces fast, precise&lt;br/&gt;frequency sweeps.&lt;br/&gt;In our system, it is used to disrupt drone communication&lt;br/&gt;by sweeping strong signals across the 2.4 GHz and 5.8 GHz&lt;br/&gt;Wi-Fi bands.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_info_3">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>400</y>
+        <width>591</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: black;
+    color: white;;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LimeSDR Mini 2.0&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;is a compact software-defined radio that can transmit and&lt;br/&gt;receive a wide range of wireless signals.&lt;br/&gt;In our system, it’s used to block GPS reception by transmitting&lt;br/&gt;controlled noise across specific GPS frequencies.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_info_4">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>600</y>
+        <width>241</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>limesdr.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_info_5">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>600</y>
+        <width>221</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>lmx2492evm.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1417</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Jamming.qrc"/>
+ </resources>
+ <connections/>
+</ui>
